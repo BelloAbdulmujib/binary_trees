@@ -9,7 +9,8 @@
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
-	int left depth, right depth;
+	size_t left depth;
+	size_t right depth;
 
 	if (tree == NULL)
 		return (0);
